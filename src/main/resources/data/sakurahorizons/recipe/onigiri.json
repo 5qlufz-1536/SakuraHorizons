@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:wheat"
+  },
+  "pattern": [
+    "   ",
+    " W ",
+    "WWW"
+  ],
+  "result": {
+    "count": 4,
+    "id": "sakurahorizons:onigiri"
+  }
+}
