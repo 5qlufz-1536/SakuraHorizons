@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sakurahorizons:block/test_oak_block"
+    }
+  }
+}

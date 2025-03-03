@@ -1,3 +1,6 @@
 {
-  "item.sakurahorizons.onigiri": "rice"
+  "item.sakurahorizons.onigiri": "rice ball",
+  "item.sakurahorizons.test_oak_block": "test oak",
+
+  "block.sakurahorizons.test_oak_block": "test oak"
 }
