@@ -17,6 +17,7 @@ public class ModItems {
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", Item::new, new Item.Settings());
     public static final Item EXAMPLE_ITEM = registerItem("onigiri", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(4).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item TOFU = registerItem("tofu", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(2).saturationModifier(0.3f).build())), new Item.Settings());
+    //public static final Item TOFU = registerItem("tofu", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(2).saturationModifier(0.3f).build())), new Item.Settings());
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {

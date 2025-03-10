@@ -3,6 +3,7 @@ package net.saluf.sakurahorizons.registry;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -19,6 +20,7 @@ import java.util.function.Function;
 public class ModBlocks {
 
     public static final Block TEST_OAK_BLOCK = register("test_oak_block", Block::new, AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
+    public static final Block TEST_OAK_BLOCK2 = register("test_oak_block2", PillarBlock::new, AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean shouldRegisterItem) {
         RegistryKey<Block> blockKey = keyOfBlock(name);
@@ -43,6 +45,7 @@ public class ModBlocks {
     public static void registerModBlocks() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register( entries -> {
             entries.add(ModBlocks.TEST_OAK_BLOCK);
+            entries.add(ModBlocks.TEST_OAK_BLOCK2);
         });
     }
 }
