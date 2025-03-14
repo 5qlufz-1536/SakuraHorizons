@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:cooked_salmon",
+    "A": "sakurahorizons:onigiri"
+  },
+  "pattern": [
+    "   ",
+    " W ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:shake_onigiri"
+  }
+}
