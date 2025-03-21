@@ -28,6 +28,7 @@ public class ModItems {
     public static final Item SHAKE_ONIGIRI = registerItem("shake_onigiri", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item NAGINATA = registerItem("naginata",settings -> new SwordItem(GUIDITE_TOOL_MATERIAL,11f,-3.4f,settings),new Item.Settings());
     public static final Item SALT = registerItem("salt", Item::new, new Item.Settings());
+    public static final Item TORIGOMOKU = registerItem("torigomoku",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build())), new Item.Settings());
     //public static final Item ONIGIRI = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -40,6 +41,7 @@ public class ModItems {
             entries.add(ONIGIRI);
             entries.add(TOFU);
             entries.add(SHAKE_ONIGIRI);
+            entries.add(TORIGOMOKU);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(NAGINATA);
