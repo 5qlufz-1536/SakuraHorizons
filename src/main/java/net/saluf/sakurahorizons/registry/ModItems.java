@@ -22,12 +22,12 @@ public class ModItems {
             ItemTags.SWORDS
     );
     // 例：通常のアイテム
-    //public static final Item EXAMPLE_ITEM = registerItem("onigiri", Item::new, new Item.Settings());
-    public static final Item EXAMPLE_ITEM = registerItem("onigiri", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(4).saturationModifier(0.3f).build())), new Item.Settings());
+    //public static final Item ONIGIRI = registerItem("onigiri", Item::new, new Item.Settings());
+    public static final Item ONIGIRI = registerItem("onigiri", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(4).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item TOFU = registerItem("tofu", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(2).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item SHAKE_ONIGIRI = registerItem("shake_onigiri", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build())), new Item.Settings());
-    public static final Item NAGINATA = registerItem("naginata",settings -> new SwordItem(GUIDITE_TOOL_MATERIAL,1f,0.9f,settings),new Item.Settings());
-    //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
+    public static final Item NAGINATA = registerItem("naginata",settings -> new SwordItem(GUIDITE_TOOL_MATERIAL,11f,-3.4f,settings),new Item.Settings());
+    //public static final Item ONIGIRI = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         final RegistryKey<Item> registryKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("sakurahorizons", name));
@@ -36,7 +36,7 @@ public class ModItems {
 
     public static void registerModItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-            entries.add(EXAMPLE_ITEM);
+            entries.add(ONIGIRI);
             entries.add(TOFU);
             entries.add(SHAKE_ONIGIRI);
         });
