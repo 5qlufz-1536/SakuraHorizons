@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.NIGARI);
                         entries.add(ModItems.SALT);
                         entries.add(ModBlocks.TEST_OAK_BLOCK);
+                        entries.add(ModBlocks.TEST_OAK_BLOCK2);
                     })).build());
 
     public static void registerItemGroups() {
