@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:cooked_salmon"
+  },
+  "pattern": [
+    "   ",
+    " W ",
+    "   "
+  ],
+  "result": {
+    "count": 5,
+    "id": "sakurahorizons:shakeflake"
+  }
+}
