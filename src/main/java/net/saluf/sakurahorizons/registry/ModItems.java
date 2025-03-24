@@ -29,6 +29,7 @@ public class ModItems {
     public static final Item NAGINATA = registerItem("naginata",settings -> new SwordItem(ToolMaterial.DIAMOND, 11f, -3.4f,settings), new Item.Settings().enchantable(15));
     public static final Item SALT = registerItem("salt", Item::new, new Item.Settings());
     public static final Item TORIGOMOKU = registerItem("torigomoku",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build())), new Item.Settings());
+    public static final Item NIGARI = registerItem("nigari", Item::new, new Item.Settings());
     //public static final Item ONIGIRI = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -48,6 +49,7 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(SALT);
+            entries.add(NIGARI);
         });
     }
 }
