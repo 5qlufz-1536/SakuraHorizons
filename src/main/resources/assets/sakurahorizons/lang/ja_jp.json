@@ -2,6 +2,7 @@
   "item.sakurahorizons.onigiri": "おにぎり",
   "item.sakurahorizons.shake_onigiri": "鮭おにぎり",
   "item.sakurahorizons.test_oak_block": "謎の原木",
+  "item.sakurahorizons.test_oak_block2": "謎の原木2",
   "item.sakurahorizons.tofu": "豆腐",
   "item.sakurahorizons.naginata": "薙刀",
   "item.sakurahorizons.salt": "塩",
@@ -9,5 +10,7 @@
   "item.sakurahorizons.nigari": "にがり",
   "item.sakurahorizons.shakeflake": "鮭フレーク",
   "item.sakurahorizons.ayu": "鮎",
-  "block.sakurahorizons.test_oak_block": "謎の原木"
+  "block.sakurahorizons.test_oak_block": "謎の原木",
+  "block.sakurahorizons.test_oak_block2": "謎の原木2",
+  "itemgroup.sakurahorizons.main": "Sakura Horizons"
 }

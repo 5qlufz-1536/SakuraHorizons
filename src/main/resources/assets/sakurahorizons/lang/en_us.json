@@ -2,6 +2,7 @@
   "item.sakurahorizons.onigiri": "onigiri",
   "item.sakurahorizons.shake_onigiri": "salmon onigiri",
   "item.sakurahorizons.test_oak_block": "test oak",
+  "item.sakurahorizons.test_oak_block2": "test oak2",
   "item.sakurahorizons.tofu": "tofu",
   "item.sakurahorizons.naginata": "naginata",
   "item.sakurahorizons.salt": "salt",
@@ -9,5 +10,7 @@
   "item.sakurahorizons.nigari": "bittern",
   "item.sakurahorizons.shakeflake": "salmon flakes",
   "item.sakurahorizons.ayu": "ayu",
-  "block.sakurahorizons.test_oak_block": "test oak"
+  "block.sakurahorizons.test_oak_block": "test oak",
+  "block.sakurahorizons.test_oak_block2": "test oak2",
+  "itemgroup.sakurahorizons.main": "Sakura Horizons"
 }
