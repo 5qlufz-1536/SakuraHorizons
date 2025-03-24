@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "W": "minecraft:cooked_salmon",
+    "W": "sakurahorizons:shakeflake",
     "A": "sakurahorizons:onigiri"
   },
   "pattern": [
