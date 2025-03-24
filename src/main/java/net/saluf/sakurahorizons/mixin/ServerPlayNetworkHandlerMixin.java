@@ -18,7 +18,7 @@ public class ServerPlayNetworkHandlerMixin {
     private boolean redirectCanInteractWithEntityIn(ServerPlayerEntity instance, Box box, double v) {
         System.out.println(player.getMainHandStack().getItem());
         if (player.getMainHandStack().getItem() == ModItems.NAGINATA) {
-            return player.canInteractWithEntityIn(box, 10.0D);
+            return player.canInteractWithEntityIn(box, 7.0D);
         }
         return player.canInteractWithEntityIn(box, v);
     }

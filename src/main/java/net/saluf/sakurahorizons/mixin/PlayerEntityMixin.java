@@ -13,7 +13,7 @@ public abstract class PlayerEntityMixin {
     private void onGetEntityInteractionRange(CallbackInfoReturnable<Double> cir) {
         PlayerEntity player = (PlayerEntity) (Object) this;
         if (player.getMainHandStack().getItem() == ModItems.NAGINATA) {
-            cir.setReturnValue(10.0D);
+            cir.setReturnValue(7.0D);
         }
     }
 }
