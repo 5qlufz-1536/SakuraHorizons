@@ -32,6 +32,7 @@ public class ModItems {
     public static final Item NIGARI = registerItem("nigari", Item::new, new Item.Settings());
     public static final Item SHAKE_FLAKE = registerItem("shakeflake",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item AYU = registerItem("ayu",settings -> new Item (settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
+    public static final Item TAKENOKO = registerItem("takenoko", Item::new, new Item.Settings());
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -54,6 +55,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(SALT);
             entries.add(NIGARI);
+            entries.add(TAKENOKO);
         });
     }
 }

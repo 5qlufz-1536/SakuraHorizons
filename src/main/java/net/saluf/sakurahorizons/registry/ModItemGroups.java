@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SALT);
                         entries.add(ModBlocks.TEST_OAK_BLOCK);
                         entries.add(ModBlocks.TEST_OAK_BLOCK2);
+                        entries.add(ModItems.TAKENOKO);
                     })).build());
 
     public static void registerItemGroups() {
