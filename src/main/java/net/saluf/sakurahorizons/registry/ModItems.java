@@ -30,7 +30,7 @@ public class ModItems {
     public static final Item NAGINATA = registerItem("naginata",settings -> new SwordItem(GUIDITE_TOOL_MATERIAL, 11f, -3.4f, settings), new Item.Settings().enchantable(15));
     public static final Item SALT = registerItem("salt", Item::new, new Item.Settings());
     public static final Item TORIGOMOKU = registerItem("torigomoku",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build())), new Item.Settings());
-    public static final Item NIGARI = registerItem("nigari", Item::new, new Item.Settings());
+    public static final Item NIGARI = registerItem("nigari", Item::new, new Item.Settings().maxCount(16));
     public static final Item SHAKE_FLAKE = registerItem("shakeflake",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item AYU = registerItem("ayu",settings -> new Item (settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item TAKENOKO = registerItem("takenoko", Item::new, new Item.Settings());
@@ -38,6 +38,7 @@ public class ModItems {
     public static final Item TAKEYARI = registerItem("takeyari", BambooSpearItem::new, new Item.Settings().maxDamage(150) );
     public static final Item SHIO_ONIGIRI = registerItem("shio_onigiri",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item YAKI_ONIGIRI = registerItem("yaki_onigiri",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).build())), new Item.Settings());
+    public static final Item SHOYU = registerItem("shoyu",Item::new, new Item.Settings().maxCount(16));
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -65,6 +66,7 @@ public class ModItems {
             entries.add(NIGARI);
             entries.add(TAKENOKO);
             entries.add(RICE_CROP_SEEDS);
+            entries.add(SHOYU);
         });
     }
 }
