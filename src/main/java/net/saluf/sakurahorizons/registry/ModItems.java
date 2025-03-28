@@ -37,6 +37,7 @@ public class ModItems {
     public static final Item RICE_CROP_SEEDS = registerItem("rice_crop_seeds", Item::new, new Item.Settings());
     public static final Item TAKEYARI = registerItem("takeyari", BambooSpearItem::new, new Item.Settings().maxDamage(150) );
     public static final Item SHIO_ONIGIRI = registerItem("shio_onigiri",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).build())), new Item.Settings());
+    public static final Item YAKI_ONIGIRI = registerItem("yaki_onigiri",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).build())), new Item.Settings());
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -53,6 +54,7 @@ public class ModItems {
             entries.add(SHAKE_FLAKE);
             entries.add(AYU);
             entries.add(SHIO_ONIGIRI);
+            entries.add(YAKI_ONIGIRI);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(NAGINATA);

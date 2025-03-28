@@ -29,6 +29,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TEST_OAK_BLOCK2);
                         entries.add(ModItems.TAKENOKO);
                         entries.add(ModItems.SHIO_ONIGIRI);
+                        entries.add(ModItems.YAKI_ONIGIRI);
                         entries.add(ModItems.RICE_CROP_SEEDS);
                         entries.add(ModBlocks.RICE_CROP_BLOCK);
 
