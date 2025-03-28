@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:salt",
+    "A": "sakurahorizons:onigiri"
+  },
+  "pattern": [
+    "   ",
+    " W ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:shio_onigiri"
+  }
+}
