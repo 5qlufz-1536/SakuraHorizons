@@ -39,6 +39,7 @@ public class ModItems {
     public static final Item SHIO_ONIGIRI = registerItem("shio_onigiri",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item YAKI_ONIGIRI = registerItem("yaki_onigiri",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item SHOYU = registerItem("shoyu",Item::new, new Item.Settings().maxCount(16));
+    public static final Item KATSUO = registerItem("katsuo",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -56,6 +57,7 @@ public class ModItems {
             entries.add(AYU);
             entries.add(SHIO_ONIGIRI);
             entries.add(YAKI_ONIGIRI);
+            entries.add(KATSUO);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(NAGINATA);

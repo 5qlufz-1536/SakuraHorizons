@@ -26,8 +26,13 @@
         },
         {
           "type": "minecraft:item",
+          "name": "sakurahorizons:katsuo",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "name": "sakurahorizons:ayu",
-          "weight": 60
+          "weight": 57
         }
       ],
       "rolls": 1.0
