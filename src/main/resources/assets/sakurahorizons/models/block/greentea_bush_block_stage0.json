@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "sakurahorizons:block/greentea_bush_block_stage0"
+  }
+}

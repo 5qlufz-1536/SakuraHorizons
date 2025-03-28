@@ -40,6 +40,7 @@ public class ModItems {
     public static final Item YAKI_ONIGIRI = registerItem("yaki_onigiri",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item SHOYU = registerItem("shoyu",Item::new, new Item.Settings().maxCount(16));
     public static final Item KATSUO = registerItem("katsuo",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
+    public static final Item TYABA = registerItem("tyaba", Item::new, new Item.Settings());
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -69,6 +70,7 @@ public class ModItems {
             entries.add(TAKENOKO);
             entries.add(RICE_CROP_SEEDS);
             entries.add(SHOYU);
+            entries.add(TYABA);
         });
     }
 }

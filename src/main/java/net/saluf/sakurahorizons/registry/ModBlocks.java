@@ -14,6 +14,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.saluf.sakurahorizons.SakuraHorizonsMod;
+import net.saluf.sakurahorizons.custom.GreenTeaBushBlock;
 import net.saluf.sakurahorizons.custom.RiceCropBlock;
 
 import java.util.function.Function;
@@ -23,6 +24,7 @@ public class ModBlocks {
     public static final Block TEST_OAK_BLOCK = register("test_oak_block", Block::new, AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
     public static final Block APRICOT_OAK_LOG = register("apricot_oak_log", PillarBlock::new, AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
     public static final Block RICE_CROP_BLOCK = register("rice_crop_block", RiceCropBlock::new, AbstractBlock.Settings.create().noCollision().sounds(BlockSoundGroup.CROP).ticksRandomly().breakInstantly().nonOpaque(), true);
+    public static final Block GREENTEA_BUSH_BLOCK = register("greentea_bush_block", GreenTeaBushBlock::new,AbstractBlock.Settings.create().sounds(BlockSoundGroup.SWEET_BERRY_BUSH),true);
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean shouldRegisterItem) {
         RegistryKey<Block> blockKey = keyOfBlock(name);
