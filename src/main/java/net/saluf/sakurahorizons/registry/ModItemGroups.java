@@ -26,7 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.NIGARI);
                         entries.add(ModItems.SALT);
                         entries.add(ModBlocks.TEST_OAK_BLOCK);
-                        entries.add(ModBlocks.TEST_OAK_BLOCK2);
+                        entries.add(ModBlocks.APRICOT_OAK_LOG);
                         entries.add(ModItems.TAKENOKO);
                         entries.add(ModItems.SHIO_ONIGIRI);
                         entries.add(ModItems.YAKI_ONIGIRI);
