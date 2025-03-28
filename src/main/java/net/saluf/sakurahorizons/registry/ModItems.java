@@ -8,6 +8,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
+import net.saluf.sakurahorizons.custom.BambooSpearItem;
 
 import java.util.function.Function;
 
@@ -33,6 +34,8 @@ public class ModItems {
     public static final Item SHAKE_FLAKE = registerItem("shakeflake",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item AYU = registerItem("ayu",settings -> new Item (settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item TAKENOKO = registerItem("takenoko", Item::new, new Item.Settings());
+    public static final Item RICE_CROP_SEEDS = registerItem("rice_crop_seeds", Item::new, new Item.Settings());
+    public static final Item TAKEYARI = registerItem("takeyari", BambooSpearItem::new, new Item.Settings().maxDamage(150) );
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", OnigiriItem::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -51,11 +54,13 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(NAGINATA);
+            entries.add(TAKEYARI);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(SALT);
             entries.add(NIGARI);
             entries.add(TAKENOKO);
+            entries.add(RICE_CROP_SEEDS);
         });
     }
 }

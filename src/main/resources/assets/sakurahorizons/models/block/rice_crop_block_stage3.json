@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "sakurahorizons:block/rice_crop_block_stage3"
+  }
+}

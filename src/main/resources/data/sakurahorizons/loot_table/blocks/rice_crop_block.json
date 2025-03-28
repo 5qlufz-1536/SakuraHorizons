@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:block",
+
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
+
+
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "sakurahorizons:rice_crop_block",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "age": "4"
+                  }
+                },
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ],
+              "name": "sakurahorizons:rice_crop_block"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "sakurahorizons:rice_crop_seeds"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "sakurahorizons:rice_crop_block",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "4"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sakurahorizons:rice_crop_seeds",
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "parameters": {
+                "extra": 3,
+                "probability": 0.5714286
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "sakurahorizons:blocks/rice_crop_block"
+}
