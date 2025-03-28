@@ -1,0 +1,25 @@
+{
+  "feature": "sakurahorizons:rice_crop",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 23
+    },
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 5,
+      "below_noise": 1,
+      "noise_level": 0.2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

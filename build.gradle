@@ -39,6 +39,8 @@ processResources {
                 "minecraft_version": project.minecraft_version,
                 "loader_version": project.loader_version
     }
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
 def targetJavaVersion = 21
@@ -85,5 +87,11 @@ publishing {
         // Notice: This block does NOT have the same function as the block in the top level.
         // The repositories here will be used for publishing your artifact, not for
         // retrieving dependencies.
+    }
+}
+
+fabricApi {
+    configureDataGeneration() {
+        client = true
     }
 }

@@ -6,6 +6,7 @@ import net.minecraft.client.render.RenderLayer;
 import net.saluf.sakurahorizons.registry.ModBlocks;
 import net.saluf.sakurahorizons.registry.ModItemGroups;
 import net.saluf.sakurahorizons.registry.ModItems;
+import net.saluf.sakurahorizons.world.gen.ModWorldGeneration;
 
 public class SakuraHorizonsMod implements ModInitializer {
     public static final String MOD_ID = "sakurahorizons";
@@ -16,6 +17,7 @@ public class SakuraHorizonsMod implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RICE_CROP_BLOCK, RenderLayer.getCutout());
+        ModWorldGeneration.generateModWorldGen();
         System.out.println("Mod初期化完了");
     }
 }

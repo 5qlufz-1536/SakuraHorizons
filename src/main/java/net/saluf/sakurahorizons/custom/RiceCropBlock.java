@@ -4,11 +4,13 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
+import net.minecraft.world.BlockView;
 import net.saluf.sakurahorizons.registry.ModItems;
 
 public class RiceCropBlock extends CropBlock {
@@ -43,6 +45,11 @@ public class RiceCropBlock extends CropBlock {
             age = maxAge;
         }
         world.setBlockState(pos, this.withAge(age), 2);
+    }
+
+    @Override
+    protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
+        return floor.isIn(BlockTags.DIRT);
     }
 
     @Override
