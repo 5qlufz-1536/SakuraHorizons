@@ -30,11 +30,11 @@
                   "chance": 0.5
                 }
               ],
-              "name": "sakurahorizons:rice_crop_block"
+              "name": "sakurahorizons:rice_crop_seeds"
             },
             {
               "type": "minecraft:item",
-              "name": "sakurahorizons:rice_crop_seeds"
+              "name": "sakurahorizons:rice_crop_block"
             }
           ]
         }

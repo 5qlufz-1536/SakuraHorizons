@@ -28,6 +28,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TEST_OAK_BLOCK);
                         entries.add(ModBlocks.APRICOT_OAK_LOG);
                         entries.add(ModItems.TAKENOKO);
+                        entries.add(ModItems.TAKEYARI);
                         entries.add(ModItems.SHIO_ONIGIRI);
                         entries.add(ModItems.YAKI_ONIGIRI);
                         entries.add(ModItems.SHOYU);
