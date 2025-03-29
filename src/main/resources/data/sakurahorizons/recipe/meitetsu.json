@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:netherite_ingot",
+    "W": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "WWW",
+    "WAW",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:meitetsu"
+  }
+}
