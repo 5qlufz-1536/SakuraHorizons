@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "onigiri",
+  "category": "food",
+  "ingredient": "sakurahorizons:onigiri",
+  "result": {
+    "id": "sakurahorizons:yaki_onigiri"
+  },
+  "experience": 0.15,
+  "cookingtime": 100
+}
