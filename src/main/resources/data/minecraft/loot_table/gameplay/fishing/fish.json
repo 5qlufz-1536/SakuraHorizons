@@ -12,12 +12,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:salmon",
-          "weight": 5
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:tropical_fish",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -27,12 +27,17 @@
         {
           "type": "minecraft:item",
           "name": "sakurahorizons:katsuo",
-          "weight": 3
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sakurahorizons:tuna",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
           "name": "sakurahorizons:ayu",
-          "weight": 57
+          "weight": 25
         }
       ],
       "rolls": 1.0
