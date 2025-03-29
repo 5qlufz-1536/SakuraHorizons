@@ -46,6 +46,8 @@ public class ModItems {
     public static final Item TUNA = registerItem("tuna",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item KATSUOBUSHI = registerItem("katsuobushi", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(1).saturationModifier(0.2f).build())), new Item.Settings());
     public static final Item MEITESTU = registerItem("meitetsu",Item::new, new Item.Settings());
+    public static final Item HIYAYAKKO = registerItem("hiyayakko",settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(4).saturationModifier(0.3f).build())), new Item.Settings());
+    public static final Item AMAZAKE = registerItem("amazake", settings -> new PotionItem(settings.food(new FoodComponent.Builder().nutrition(0).saturationModifier(0.3f).build(), ModConsumableComponents.AMAZAKE)), new Item.Settings());
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", (Function<Item.Settings, Item>) new BlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings()), new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -67,6 +69,8 @@ public class ModItems {
             entries.add(TONYU);
             entries.add(TUNA);
             entries.add(KATSUOBUSHI);
+            entries.add(HIYAYAKKO);
+            entries.add(AMAZAKE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(NAGINATA);
