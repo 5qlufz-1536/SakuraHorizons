@@ -5,6 +5,9 @@
   "item.sakurahorizons.apricot_oak_log": "apricot log",
   "item.sakurahorizons.apricot_oak_planks": "apricot planks",
   "item.sakurahorizons.apricot_oak_wood": "apricot wood",
+  "item.sakurahorizons.apricot_oak_stairs": "apricot stairs",
+  "item.sakurahorizons.apricot_oak_slab": "apricot slab",
+  "item.sakurahorizons.apricot_oak_pressure_plate": "apricot pressure-plate",
   "item.sakurahorizons.tofu": "tofu",
   "item.sakurahorizons.naginata": "naginata",
   "item.sakurahorizons.salt": "salt",
@@ -37,5 +40,8 @@
   "block.sakurahorizons.apricot_oak_log": "apricot log",
   "block.sakurahorizons.apricot_oak_planks": "apricot planks",
   "block.sakurahorizons.apricot_oak_wood": "apricot wood",
+  "block.sakurahorizons.apricot_oak_stairs": "apricot stairs",
+  "block.sakurahorizons.apricot_oak_slab": "apricot slab",
+  "block.sakurahorizons.apricot_oak_pressure_plate": "apricot pressure-plate",
   "itemgroup.sakurahorizons.main": "Sakura Horizons"
 }

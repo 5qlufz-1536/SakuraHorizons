@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "sakurahorizons:block/apricot_oak_planks",
+    "side": "sakurahorizons:block/apricot_oak_planks",
+    "top": "sakurahorizons:block/apricot_oak_planks"
+  }
+}

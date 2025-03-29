@@ -28,6 +28,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.APRICOT_OAK_LOG);
                         entries.add(ModBlocks.APRICOT_OAK_PLANKS);
                         entries.add(ModBlocks.APRICOT_OAK_WOOD);
+                        entries.add(ModBlocks.APRICOT_OAK_STAIRS);
+                        entries.add(ModBlocks.APRICOT_OAK_SLAB);
                         entries.add(ModBlocks.APRICOT_OAK_PRESSURE_PLATE);
                         entries.add(ModItems.TAKENOKO);
                         entries.add(ModItems.TAKEYARI);

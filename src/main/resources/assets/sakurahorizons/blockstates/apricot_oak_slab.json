@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sakurahorizons:block/apricot_oak_slab"
+    },
+    "type=double": {
+      "model": "sakurahorizons:block/apricot_oak_planks"
+    },
+    "type=top": {
+      "model": "sakurahorizons:block/apricot_oak_slab_top"
+    }
+  }
+}
