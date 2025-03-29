@@ -1,4 +1,6 @@
 {
   "replace": false,
-  "values": ["sakurahorizons:test_oak_block"]
+  "values": ["sakurahorizons:apricot_oak_log",
+  "sakurahorizons:apricot_oak_planks",
+  "sakurahorizons:apricot_oak_wood"]
 }

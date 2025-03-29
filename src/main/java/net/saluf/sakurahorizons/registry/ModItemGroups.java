@@ -25,7 +25,6 @@ public class ModItemGroups {
                         entries.add(ModItems.NAGINATA);
                         entries.add(ModItems.NIGARI);
                         entries.add(ModItems.SALT);
-                        entries.add(ModBlocks.OAK_BLOCK);
                         entries.add(ModBlocks.APRICOT_OAK_LOG);
                         entries.add(ModBlocks.APRICOT_OAK_PLANKS);
                         entries.add(ModBlocks.APRICOT_OAK_WOOD);

@@ -1,9 +1,10 @@
 {
   "item.sakurahorizons.onigiri": "onigiri",
   "item.sakurahorizons.shake_onigiri": "salmon onigiri",
-  "item.sakurahorizons.test_oak_block": "test oak",
-  "item.sakurahorizons.apricot_oak_log": "apricot_log",
-  "item.sakurahorizons.apricot_oak_leaves": "apricot_leaves",
+  "item.sakurahorizons.apricot_oak_leaves": "apricot leaves",
+  "item.sakurahorizons.apricot_oak_log": "apricot log",
+  "item.sakurahorizons.apricot_oak_planks": "apricot planks",
+  "item.sakurahorizons.apricot_oak_wood": "apricot wood",
   "item.sakurahorizons.tofu": "tofu",
   "item.sakurahorizons.naginata": "naginata",
   "item.sakurahorizons.salt": "salt",
@@ -24,8 +25,9 @@
   "item.sakurahorizons.tuna": "tuna",
   "item.sakurahorizons.meitetsu": "umbral Iron",
   "item.sakurahorizons.katsuobushi": "katsuobushi",
-  "block.sakurahorizons.test_oak_block": "test oak",
-  "block.sakurahorizons.apricot_oak_log": "apricot_log",
-  "block.sakurahorizons.apricot_oak_leaves": "apricot_leaves",
+  "block.sakurahorizons.apricot_oak_leaves": "apricot leaves",
+  "block.sakurahorizons.apricot_oak_log": "apricot log",
+  "block.sakurahorizons.apricot_oak_planks": "apricot planks",
+  "block.sakurahorizons.apricot_oak_wood": "apricot wood",
   "itemgroup.sakurahorizons.main": "Sakura Horizons"
 }

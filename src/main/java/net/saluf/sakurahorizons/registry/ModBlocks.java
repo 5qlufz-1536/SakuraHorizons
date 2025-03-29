@@ -21,10 +21,10 @@ import java.util.function.Function;
 
 public class ModBlocks {
 
-    public static final Block OAK_BLOCK = register("test_oak_block", Block::new, AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
     public static final Block APRICOT_OAK_LOG = register("apricot_oak_log", PillarBlock::new, AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
     public static final Block APRICOT_OAK_WOOD = register("apricot_oak_wood", PillarBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable(), true);
-    public static final Block APRICOT_OAK_PLANKS = register("apricot_oak_planks", SlabBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable(), true);
+    public static final Block APRICOT_OAK_PLANKS = register("apricot_oak_planks", PillarBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable(), true);
+    public static final Block APRICOT_OAK_SLABS = register("apricot_oak_slabs", SlabBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable(), true);
     public static final Block APRICOT_OAK_PRESSURE_PLATE = register("apricot_pressure_plate", settings -> new PressurePlateBlock(BlockSetType.OAK, settings), AbstractBlock.Settings.create().solid().instrument(NoteBlockInstrument.BASS).noCollision().strength(0.5F).burnable().pistonBehavior(PistonBehavior.DESTROY), true);
     public static final Block APRICOT_OAK_LEAVES = register("apricot_oak_leaves", LeavesBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.GRASS).burnable(), true);
     public static final Block RICE_CROP_BLOCK = register("rice_crop_block", RiceCropBlock::new, AbstractBlock.Settings.create().noCollision().sounds(BlockSoundGroup.CROP).ticksRandomly().breakInstantly().nonOpaque(), true);
@@ -51,8 +51,5 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register( entries -> {
-            entries.add(ModBlocks.OAK_BLOCK);
-        });
     }
 }
