@@ -2,7 +2,8 @@
   "item.sakurahorizons.onigiri": "onigiri",
   "item.sakurahorizons.shake_onigiri": "salmon onigiri",
   "item.sakurahorizons.test_oak_block": "test oak",
-  "item.sakurahorizons.apricot_oak_log": "apricot",
+  "item.sakurahorizons.apricot_oak_log": "apricot_log",
+  "item.sakurahorizons.apricot_oak_leaves": "apricot_leaves",
   "item.sakurahorizons.tofu": "tofu",
   "item.sakurahorizons.naginata": "naginata",
   "item.sakurahorizons.salt": "salt",
@@ -22,6 +23,7 @@
   "item.sakurahorizons.tonyu": "tonyu",
   "item.sakurahorizons.tuna": "tuna",
   "block.sakurahorizons.test_oak_block": "test oak",
-  "block.sakurahorizons.apricot_oak_log": "apricot",
+  "block.sakurahorizons.apricot_oak_log": "apricot_log",
+  "block.sakurahorizons.apricot_oak_leaves": "apricot_leaves",
   "itemgroup.sakurahorizons.main": "Sakura Horizons"
 }

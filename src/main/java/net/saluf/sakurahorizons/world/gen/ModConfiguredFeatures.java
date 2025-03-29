@@ -17,7 +17,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> RICE_CROP_KEY = registerKey("rice_crop");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        // ConfiguredFeatures.createRandomPatchFeatureConfigを使用して、作物パッチの設定を作成
+
         register(context, RICE_CROP_KEY, Feature.RANDOM_PATCH,
                 ConfiguredFeatures.createRandomPatchFeatureConfig(
                         Feature.SIMPLE_BLOCK,

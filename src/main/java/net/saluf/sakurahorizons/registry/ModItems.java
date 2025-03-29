@@ -1,16 +1,8 @@
 package net.saluf.sakurahorizons.registry;
 
-import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.Portal;
-import net.minecraft.client.sound.Sound;
-import net.minecraft.component.type.AttributeModifiersComponent;
-import net.minecraft.component.type.ConsumableComponent;
-import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.*;
-import net.minecraft.potion.Potion;
-import net.minecraft.predicate.entity.EntityEffectPredicate;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;

@@ -2,6 +2,7 @@
   "item.sakurahorizons.onigiri": "おにぎり",
   "item.sakurahorizons.shake_onigiri": "鮭おにぎり",
   "item.sakurahorizons.test_oak_block": "謎の原木",
+  "item.sakurahorizons.apricot_oak_leaves": "杏の木材",
   "item.sakurahorizons.apricot_oak_log": "杏",
   "item.sakurahorizons.tofu": "豆腐",
   "item.sakurahorizons.naginata": "薙刀",
@@ -22,7 +23,8 @@
   "item.sakurahorizons.tonyu": "豆乳",
   "item.sakurahorizons.tuna": "鮪",
   "block.sakurahorizons.test_oak_block": "謎の原木",
-  "block.sakurahorizons.apricot_oak_log": "杏",
+  "block.sakurahorizons.apricot_oak_log": "杏の原木",
+  "block.sakurahorizons.apricot_oak_leaves": "杏の木材",
   "itemgroup.sakurahorizons.main": "Sakura Horizons"
 
 }
