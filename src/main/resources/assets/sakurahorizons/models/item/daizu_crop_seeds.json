@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sakurahorizons:item/daizu_crop_seeds"
+  }
+}

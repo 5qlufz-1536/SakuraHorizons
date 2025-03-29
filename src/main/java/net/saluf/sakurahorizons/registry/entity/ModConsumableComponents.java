@@ -37,7 +37,16 @@ public class ModConsumableComponents {
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.REGENERATION,200,1)))
             .build();
     public static final ConsumableComponent AMAZAKE = drink()
-            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.SPEED,1200,2)))
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.SPEED,300,2)))
+            .build();
+    public  static final ConsumableComponent RYOKUTYA = drink()
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION,1200,0)))
+            .build();
+    public static final ConsumableComponent MATTYA = drink()
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.LUCK,300,3)))
+            .build();
+    public static final ConsumableComponent UMEBOSHI = food()
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.DARKNESS,50,1)))
             .build();
 
     {
