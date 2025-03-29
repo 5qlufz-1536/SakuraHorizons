@@ -35,6 +35,7 @@ public class ModItemGroups {
                         entries.add(ModItems.YAKI_ONIGIRI);
                         entries.add(ModItems.SHOYU);
                         entries.add(ModItems.KATSUO);
+                        entries.add(ModItems.TYABA);
                         entries.add(ModItems.RICE_CROP_SEEDS);
                         entries.add(ModBlocks.RICE_CROP_BLOCK);
 
