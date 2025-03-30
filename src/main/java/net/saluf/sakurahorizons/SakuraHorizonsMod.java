@@ -4,11 +4,10 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
-import net.saluf.sakurahorizons.registry.ModBlocks;
-import net.saluf.sakurahorizons.registry.ModEntities;
-import net.saluf.sakurahorizons.registry.ModItemGroups;
-import net.saluf.sakurahorizons.registry.ModItems;
+import net.saluf.sakurahorizons.client.MortarScreen;
+import net.saluf.sakurahorizons.registry.*;
 import net.saluf.sakurahorizons.registry.client.BambooSpearProjectileModel;
 import net.saluf.sakurahorizons.registry.client.BambooSpearProjectileRenderer;
 import net.saluf.sakurahorizons.world.gen.ModWorldGeneration;
@@ -22,6 +21,8 @@ public class SakuraHorizonsMod implements ModInitializer {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
         ModEntities.registerEntities();
+        ModBlockEntities.registerBlockEntities();
+        ModScreenHandlers.registerScreenHandlers();
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RICE_CROP_BLOCK, RenderLayer.getCutout());
         ModWorldGeneration.generateModWorldGen();
 

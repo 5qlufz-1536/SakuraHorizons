@@ -13,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.saluf.sakurahorizons.SakuraHorizonsMod;
 import net.saluf.sakurahorizons.custom.GreenTeaBushBlock;
+import net.saluf.sakurahorizons.custom.MortarBlock;
 import net.saluf.sakurahorizons.custom.RiceCropBlock;
 
 import java.util.function.Function;
@@ -26,6 +27,7 @@ public class ModBlocks {
     public static final Block APRICOT_OAK_STAIRS = register("apricot_oak_stairs", settings -> new StairsBlock(ModBlocks.APRICOT_OAK_PLANKS.getDefaultState(), settings), AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
     public static final Block APRICOT_OAK_PRESSURE_PLATE = register("apricot_oak_pressure_plate", settings -> new PressurePlateBlock(BlockSetType.OAK, settings), AbstractBlock.Settings.create().solid().instrument(NoteBlockInstrument.BASS).noCollision().strength(0.5F).burnable().pistonBehavior(PistonBehavior.DESTROY), true);
     public static final Block APRICOT_OAK_LEAVES = register("apricot_oak_leaves", LeavesBlock::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.GRASS).burnable(), true);
+    public static final Block MORTAR = register("mortar", MortarBlock::new, AbstractBlock.Settings.create().strength(4f), true);
     public static final Block RICE_CROP_BLOCK = register("rice_crop_block", RiceCropBlock::new, AbstractBlock.Settings.create().noCollision().sounds(BlockSoundGroup.CROP).ticksRandomly().breakInstantly().nonOpaque(), true);
     public static final Block GREENTEA_BUSH_BLOCK = register("greentea_bush_block", GreenTeaBushBlock::new,AbstractBlock.Settings.create().sounds(BlockSoundGroup.SWEET_BERRY_BUSH),true);
 
