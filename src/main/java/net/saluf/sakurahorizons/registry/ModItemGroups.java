@@ -49,6 +49,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MATTYA);
                         entries.add(ModItems.MATTYA_KONA);
                         entries.add(ModItems.AYU_SHIOYAKI);
+                        entries.add(ModItems.SHIO_AYU);
                         entries.add(ModItems.UME);
                         entries.add(ModItems.UMEBOSHI);
                         entries.add(ModItems.UME_ONIGIRI);

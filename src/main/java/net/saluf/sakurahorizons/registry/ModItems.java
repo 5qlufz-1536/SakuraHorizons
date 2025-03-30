@@ -58,6 +58,7 @@ public class ModItems {
     public static final Item MATTYA_KONA = registerItem("mattya_kona", Item::new, new Item.Settings());
     public static final Item AYU_SHIOYAKI = registerItem("ayunoshioyaki", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item UME = registerItem("ume", Item::new, new Item.Settings());
+    public static final Item SHIO_AYU = registerItem("shio_ayu", Item::new, new Item.Settings());
     //public static final Item EXAMPLE_ITEM = registerItem("onigiri", (Function<Item.Settings, Item>) new BlockItem(ModBlocks.RICE_CROP_BLOCK, new Item.Settings()), new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
