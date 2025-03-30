@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "ayu",
+  "category": "food",
+  "ingredient": "sakurahorizons:shio_ayu",
+  "result": {
+    "id": "sakurahorizons:ayunoshioyaki"
+  },
+  "experience": 0.15,
+  "cookingtime": 200
+}

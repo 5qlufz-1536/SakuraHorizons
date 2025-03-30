@@ -2,16 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "W": "sakurahorizons:nigari",
-    "A": "sakurahorizons:tonyu"
+    "W": "sakurahorizons:katsuo"
   },
   "pattern": [
     "   ",
     " W ",
-    " A "
+    "   "
   ],
   "result": {
-    "count": 4,
-    "id": "sakurahorizons:tofu"
+    "count": 5,
+    "id": "sakurahorizons:katsuobushi"
   }
 }
