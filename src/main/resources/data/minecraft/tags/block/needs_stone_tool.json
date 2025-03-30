@@ -2,5 +2,9 @@
   "replace": false,
   "values": ["sakurahorizons:apricot_oak_log",
     "sakurahorizons:apricot_oak_planks",
-    "sakurahorizons:apricot_oak_wood"]
+    "sakurahorizons:apricot_oak_wood",
+    "sakurahorizons:apricot_oak_slab",
+    "sakurahorizons:apricot_oak_stairs",
+    "sakurahorizons:apricot_oak_fence",
+    "sakurahorizons:apricot_oak_fence_gate"]
 }

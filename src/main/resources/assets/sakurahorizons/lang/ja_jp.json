@@ -7,6 +7,8 @@
   "item.sakurahorizons.apricot_oak_wood": "杏の木",
   "item.sakurahorizons.apricot_oak_stairs": "杏の階段",
   "item.sakurahorizons.apricot_oak_slab": "杏のハーフブロック",
+  "item.sakurahorizons.apricot_oak_fence": "杏のフェンス",
+  "item.sakurahorizons.apricot_oak_fence_gate": "杏のフェンスゲート",
   "item.sakurahorizons.apricot_oak_pressure_plate": "杏の感圧板",
   "item.sakurahorizons.tofu": "豆腐",
   "item.sakurahorizons.naginata": "薙刀",
@@ -47,6 +49,8 @@
   "block.sakurahorizons.apricot_oak_wood": "杏の木",
   "block.sakurahorizons.apricot_oak_stairs": "杏の階段",
   "block.sakurahorizons.apricot_oak_slab": "杏のハーフブロック",
+  "block.sakurahorizons.apricot_oak_fence": "杏のフェンス",
+  "block.sakurahorizons.apricot_oak_fence_gate": "杏のフェンスゲート",
   "block.sakurahorizons.apricot_oak_pressure_plate": "杏の感圧板",
 
   "itemgroup.sakurahorizons.main": "Sakura Horizons"
