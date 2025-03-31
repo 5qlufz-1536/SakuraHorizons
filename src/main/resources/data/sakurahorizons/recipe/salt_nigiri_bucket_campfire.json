@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "mixin",
+  "category": "misc",
+  "ingredient": "minecraft:potion",
+  "result": {
+    "id": "minecraft:glass_bottle"
+  },
+  "experience": 0.35,
+  "cookingtime": 270
+}

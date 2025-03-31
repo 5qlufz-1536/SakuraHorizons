@@ -4,6 +4,7 @@
   "package": "net.saluf.sakurahorizons.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CampfireBlockEntityMixin",
     "PlayerEntityMixin",
     "ServerPlayNetworkHandlerMixin"
   ],
