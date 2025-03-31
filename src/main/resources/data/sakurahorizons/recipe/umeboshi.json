@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:ume",
+    "B": "minecraft:potion",
+    "A": "sakurahorizons:salt"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "WAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:umeboshi"
+  }
+}

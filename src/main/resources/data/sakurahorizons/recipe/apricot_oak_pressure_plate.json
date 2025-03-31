@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:apricot_oak_planks"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    " WW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:apricot_oak_pressure_plate"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:rice_crop_seeds",
+    "B": "minecraft:potion",
+    "A": "minecraft:sugar"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "WAB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:amazake"
+  }
+}

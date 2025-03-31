@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:shoyu",
+    "A": "sakurahorizons:tofu"
+  },
+  "pattern": [
+    "   ",
+    " W ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:hiyayakko"
+  }
+}

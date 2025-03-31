@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "sakurahorizons:apricot_oak_planks",
+    "W": "minecraft:stick"
+  },
+  "pattern": [
+    "   ",
+    "WAW",
+    "WAW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:apricot_oak_fence_gate"
+  }
+}

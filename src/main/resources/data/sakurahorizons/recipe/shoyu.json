@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:salt",
+    "A": "sakurahorizons:daizu_crop_seeds"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    " AW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:shoyu"
+  }
+}

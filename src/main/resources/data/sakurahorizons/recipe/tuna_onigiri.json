@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:tuna",
+    "A": "sakurahorizons:onigiri"
+  },
+  "pattern": [
+    "   ",
+    " W ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:tuna_onigiri"
+  }
+}

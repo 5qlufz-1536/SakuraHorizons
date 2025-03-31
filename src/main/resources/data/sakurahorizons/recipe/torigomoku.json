@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:shoyu",
+    "C": "sakurahorizons:takenoko",
+    "B": "minecraft:cooked_chiken",
+    "A": "sakurahorizons:onigiri"
+  },
+  "pattern": [
+    "   ",
+    "CBW",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sakurahorizons:torigomoku"
+  }
+}
