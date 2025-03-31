@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "sakurahorizons:maple_planks"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "WWW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sakurahorizons:maple_slab"
+  }
+}
