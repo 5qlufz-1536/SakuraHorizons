@@ -25,20 +25,26 @@ public class ModItemGroups {
                         entries.add(ModItems.NAGINATA);
                         entries.add(ModItems.NIGARI);
                         entries.add(ModItems.SALT);
+
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_WOOD);
                         entries.add(ModBlocks.MAPLE_PLANKS);
+                        entries.add(ModBlocks.MAPLE_STAIRS);
                         entries.add(ModBlocks.MAPLE_SLAB);
                         entries.add(ModBlocks.MAPLE_LEAVES);
+                        entries.add(ModBlocks.MAPLE_SAPLING);
+
                         entries.add(ModBlocks.APRICOT_OAK_LOG);
-                        entries.add(ModBlocks.APRICOT_OAK_PLANKS);
                         entries.add(ModBlocks.APRICOT_OAK_WOOD);
+                        entries.add(ModBlocks.APRICOT_OAK_PLANKS);
                         entries.add(ModBlocks.APRICOT_OAK_STAIRS);
                         entries.add(ModBlocks.APRICOT_OAK_SLAB);
                         entries.add(ModBlocks.APRICOT_OAK_LEAVES);
+                        entries.add(ModBlocks.APRICOT_OAK_SAPLING);
                         entries.add(ModBlocks.APRICOT_OAK_FENCE);
                         entries.add(ModBlocks.APRICOT_OAK_FENCE_GATE);
                         entries.add(ModBlocks.APRICOT_OAK_PRESSURE_PLATE);
+
                         entries.add(ModItems.TAKENOKO);
                         entries.add(ModItems.TAKEYARI);
                         entries.add(ModItems.SHIO_ONIGIRI);

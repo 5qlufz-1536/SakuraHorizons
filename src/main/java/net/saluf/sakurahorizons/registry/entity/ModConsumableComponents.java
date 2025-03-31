@@ -33,13 +33,13 @@ public class ModConsumableComponents {
                     )
             )
             .build();
-    public  static final ConsumableComponent TONYU = drink()
+    public static final ConsumableComponent TONYU = drink()
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.REGENERATION,200,1)))
             .build();
     public static final ConsumableComponent AMAZAKE = drink()
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.SPEED,300,2)))
             .build();
-    public  static final ConsumableComponent RYOKUTYA = drink()
+    public static final ConsumableComponent RYOKUTYA = drink()
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION,1200,0)))
             .build();
     public static final ConsumableComponent MATTYA = drink()

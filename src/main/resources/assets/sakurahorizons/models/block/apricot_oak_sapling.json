@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "sakurahorizons:block/apricot_oak_sapling"
+  }
+}

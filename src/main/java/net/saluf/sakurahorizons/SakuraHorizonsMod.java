@@ -24,6 +24,8 @@ public class SakuraHorizonsMod implements ModInitializer {
         ModBlockEntities.registerBlockEntities();
         ModScreenHandlers.registerScreenHandlers();
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RICE_CROP_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.APRICOT_OAK_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAPLE_SAPLING, RenderLayer.getCutout());
         ModWorldGeneration.generateModWorldGen();
 
         EntityModelLayerRegistry.registerModelLayer(BambooSpearProjectileModel.TAKEYARI, BambooSpearProjectileModel::getTexturedModelData);
