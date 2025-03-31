@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sakurahorizons:block/maple_slab"
+    },
+    "type=double": {
+      "model": "sakurahorizons:block/maple_planks"
+    },
+    "type=top": {
+      "model": "sakurahorizons:block/maple_slab_top"
+    }
+  }
+}
