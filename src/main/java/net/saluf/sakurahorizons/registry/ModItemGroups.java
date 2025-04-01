@@ -17,14 +17,32 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.sakurahorizons.main"))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.ONIGIRI);
-                        entries.add(ModItems.TOFU);
+                        entries.add(ModItems.OKAKA_ONIGIRI);
                         entries.add(ModItems.SHAKE_ONIGIRI);
+                        entries.add(ModItems.SHIO_ONIGIRI);
+                        entries.add(ModItems.YAKI_ONIGIRI);
                         entries.add(ModItems.TORIGOMOKU);
-                        entries.add(ModItems.SHAKE_FLAKE);
-                        entries.add(ModItems.AYU);
-                        entries.add(ModItems.NAGINATA);
+                        entries.add(ModItems.UME_ONIGIRI);
+                        entries.add(ModItems.TUNA_ONIGIRI);
+
+                        entries.add(ModBlocks.SOY_BEAN_CROP_BLOCK);
+                        entries.add(ModItems.SHOYU);
+                        entries.add(ModItems.HIYAYAKKO);
+                        entries.add(ModItems.TOFU);
+                        entries.add(ModItems.TONYU);
                         entries.add(ModItems.NIGARI);
                         entries.add(ModItems.SALT);
+
+                        entries.add(ModItems.AYU);
+                        entries.add(ModItems.SHIO_AYU);
+                        entries.add(ModItems.AYU_SHIOYAKI);
+                        entries.add(ModItems.KATSUO);
+                        entries.add(ModItems.KATSUOBUSHI);
+                        entries.add(ModItems.SHAKE_FLAKE);
+                        entries.add(ModItems.TUNA);
+
+                        entries.add(ModItems.NAGINATA);
+                        entries.add(ModItems.TAKEYARI);
 
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_WOOD);
@@ -45,32 +63,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.APRICOT_OAK_FENCE_GATE);
                         entries.add(ModBlocks.APRICOT_OAK_PRESSURE_PLATE);
 
-                        entries.add(ModItems.TAKENOKO);
-                        entries.add(ModItems.TAKEYARI);
-                        entries.add(ModItems.SHIO_ONIGIRI);
-                        entries.add(ModItems.YAKI_ONIGIRI);
-                        entries.add(ModItems.SHOYU);
-                        entries.add(ModItems.KATSUO);
-                        entries.add(ModItems.KATSUOBUSHI);
-                        entries.add(ModItems.TUNA);
                         entries.add(ModItems.TYABA);
-                        entries.add(ModItems.HIYAYAKKO);
-                        entries.add(ModItems.MEITESTU);
-                        entries.add(ModItems.TONYU);
-                        entries.add(ModItems.AMAZAKE);
-                        entries.add(ModItems.OKAKA_ONIGIRI);
                         entries.add(ModItems.RYOKUTYA);
                         entries.add(ModItems.MATTYA);
                         entries.add(ModItems.MATTYA_KONA);
-                        entries.add(ModItems.AYU_SHIOYAKI);
-                        entries.add(ModItems.SHIO_AYU);
                         entries.add(ModItems.UME);
                         entries.add(ModItems.UMEBOSHI);
-                        entries.add(ModItems.UME_ONIGIRI);
-                        entries.add(ModItems.TUNA_ONIGIRI);
                         entries.add(ModItems.RICE_CROP_SEEDS);
                         entries.add(ModBlocks.RICE_CROP_BLOCK);
-                        entries.add(ModBlocks.SOY_BEAN_CROP_BLOCK);
+                        entries.add(ModItems.AMAZAKE);
+                        entries.add(ModItems.MEITESTU);
+                        entries.add(ModItems.TAKENOKO);
+
 
                     })).build());
 
