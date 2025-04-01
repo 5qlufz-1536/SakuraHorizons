@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "age=0":  { "model": "sakurahorizons:block/daizu_crop_block0" },
+    "age=1":  { "model": "sakurahorizons:block/daizu_crop_block1" },
+    "age=2":  { "model": "sakurahorizons:block/daizu_crop_block2" },
+    "age=3":  { "model": "sakurahorizons:block/daizu_crop_block3" },
+    "age=4":  { "model": "sakurahorizons:block/daizu_crop_block4" }
+  }
+}

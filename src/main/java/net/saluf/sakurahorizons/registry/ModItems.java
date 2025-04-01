@@ -53,7 +53,6 @@ public class ModItems {
     public static final Item MATTYA = registerItem("mattya", settings -> new PotionItem(settings.food(new FoodComponent.Builder().nutrition(0).saturationModifier(0.3f).build(), ModConsumableComponents.MATTYA)), new Item.Settings());
     public static final Item UMEBOSHI = registerItem("umeboshi", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(3).saturationModifier(0.4f).build(), ModConsumableComponents.UMEBOSHI)), new Item.Settings());
     public static final Item UME_ONIGIRI = registerItem("ume_onigiri", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(7).saturationModifier(0.3f).build())), new Item.Settings());
-    public static final Item DAIZU_CROP_SEEDS = registerItem("daizu_crop_seeds", Item::new, new Item.Settings());
     public static final Item TUNA_ONIGIRI = registerItem("tuna_onigiri", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(7).saturationModifier(0.3f).build())), new Item.Settings());
     public static final Item MATTYA_KONA = registerItem("mattya_kona", Item::new, new Item.Settings());
     public static final Item AYU_SHIOYAKI = registerItem("ayunoshioyaki", settings -> new Item(settings.food(new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build())), new Item.Settings());
@@ -100,7 +99,6 @@ public class ModItems {
             entries.add(SHOYU);
             entries.add(TYABA);
             entries.add(MEITESTU);
-            entries.add(DAIZU_CROP_SEEDS);
         });
     }
 }

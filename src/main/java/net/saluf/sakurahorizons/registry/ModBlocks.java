@@ -34,7 +34,7 @@ public class ModBlocks {
     public static final Block MORTAR = register("mortar", MortarBlock::new, AbstractBlock.Settings.create().strength(4f), true);
     public static final Block RICE_CROP_BLOCK = register("rice_crop_block", RiceCropBlock::new, AbstractBlock.Settings.create().noCollision().sounds(BlockSoundGroup.CROP).ticksRandomly().breakInstantly().nonOpaque(), true);
     public static final Block GREENTEA_BUSH_BLOCK = register("greentea_bush_block", GreenTeaBushBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY),true);
-    public static final Block SOY_BEEN_CROP_BLOCK = register("daizu_crop_block", SoyBeenCropBlock::new, AbstractBlock.Settings.create().noCollision().sounds(BlockSoundGroup.CROP).ticksRandomly().breakInstantly().nonOpaque(), true);
+    public static final Block SOY_BEAN_CROP_BLOCK = register("daizu_crop_block", SoyBeenCropBlock::new, AbstractBlock.Settings.create().noCollision().sounds(BlockSoundGroup.CROP).ticksRandomly().breakInstantly().nonOpaque(), true);
     public static final Block MAPLE_LOG = register("maple_log", PillarBlock::new, AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD),true);
     public static final Block MAPLE_WOOD = register("maple_wood", PillarBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable(),true);
     public static final Block MAPLE_PLANKS = register("maple_planks", PillarBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F,3.0F).sounds(BlockSoundGroup.WOOD).burnable(),true);

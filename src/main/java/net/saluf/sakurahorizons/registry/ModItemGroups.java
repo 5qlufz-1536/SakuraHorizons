@@ -68,9 +68,9 @@ public class ModItemGroups {
                         entries.add(ModItems.UMEBOSHI);
                         entries.add(ModItems.UME_ONIGIRI);
                         entries.add(ModItems.TUNA_ONIGIRI);
-                        entries.add(ModItems.DAIZU_CROP_SEEDS);
                         entries.add(ModItems.RICE_CROP_SEEDS);
                         entries.add(ModBlocks.RICE_CROP_BLOCK);
+                        entries.add(ModBlocks.SOY_BEAN_CROP_BLOCK);
 
                     })).build());
 

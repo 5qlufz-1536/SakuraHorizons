@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/item",
+  "textures": {
+    "crop": "sakurahorizons:block/daizu_crop_block"
+  }
+}

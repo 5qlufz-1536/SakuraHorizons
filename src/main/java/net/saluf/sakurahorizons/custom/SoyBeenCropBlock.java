@@ -12,20 +12,17 @@ import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
-import net.saluf.sakurahorizons.registry.ModItems;
+import net.saluf.sakurahorizons.registry.ModBlocks;
 
-public class RiceCropBlock extends CropBlock {
-
-    public static final IntProperty AGE = CropBlock.AGE;
-
-    public RiceCropBlock(Settings settings) {
+public class SoyBeenCropBlock extends CropBlock {
+    public SoyBeenCropBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.getDefaultState().with(this.getAgeProperty(), 0));
     }
 
     @Override
     public ItemConvertible getSeedsItem() {
-        return ModItems.RICE_CROP_SEEDS;
+        return ModBlocks.SOY_BEAN_CROP_BLOCK;
     }
 
     @Override
