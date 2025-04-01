@@ -16,6 +16,7 @@ import net.saluf.sakurahorizons.custom.GreenTeaBushBlock;
 import net.saluf.sakurahorizons.custom.MortarBlock;
 import net.saluf.sakurahorizons.custom.RiceCropBlock;
 import net.saluf.sakurahorizons.custom.SoyBeenCropBlock;
+import net.saluf.sakurahorizons.world.tree.ModSaplingGenerator;
 
 import java.util.function.Function;
 
@@ -27,8 +28,8 @@ public class ModBlocks {
     public static final Block APRICOT_OAK_SLAB = register("apricot_oak_slab", SlabBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable(), true);
     public static final Block APRICOT_OAK_STAIRS = register("apricot_oak_stairs", settings -> new StairsBlock(ModBlocks.APRICOT_OAK_PLANKS.getDefaultState(), settings), AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
     public static final Block APRICOT_OAK_PRESSURE_PLATE = register("apricot_oak_pressure_plate", settings -> new PressurePlateBlock(BlockSetType.OAK, settings), AbstractBlock.Settings.create().solid().instrument(NoteBlockInstrument.BASS).noCollision().strength(0.5F).burnable().pistonBehavior(PistonBehavior.DESTROY), true);
-    public static final Block APRICOT_OAK_LEAVES = register("apricot_oak_leaves", LeavesBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).ticksRandomly().nonOpaque().sounds(BlockSoundGroup.GRASS).burnable().suffocates(Blocks::never).blockVision(Blocks::never).pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), true);
-    public static final Block APRICOT_OAK_SAPLING = register("apricot_oak_sapling", settings -> new SaplingBlock(SaplingGenerator.OAK, settings), AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), true);
+    public static final Block APRICOT_OAK_LEAVES = register("apricot_oak_leaves", LeavesBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).strength(0.2F).ticksRandomly().nonOpaque().sounds(BlockSoundGroup.GRASS).burnable().suffocates(Blocks::never).blockVision(Blocks::never).pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), true);
+    public static final Block APRICOT_OAK_SAPLING = register("apricot_oak_sapling", settings -> new SaplingBlock(ModSaplingGenerator.APRICOT_WOOD, settings), AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), true);
     public static final Block APRICOT_OAK_FENCE = register("apricot_oak_fence", FenceBlock::new, AbstractBlock.Settings.create().solid().instrument(NoteBlockInstrument.BASS).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD).burnable(), true);
     public static final Block APRICOT_OAK_FENCE_GATE = register("apricot_oak_fence_gate", settings -> new FenceGateBlock(WoodType.OAK, settings), AbstractBlock.Settings.create().solid().strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD).burnable(), true);
     public static final Block MORTAR = register("mortar", MortarBlock::new, AbstractBlock.Settings.create().strength(4f), true);
@@ -40,8 +41,8 @@ public class ModBlocks {
     public static final Block MAPLE_PLANKS = register("maple_planks", PillarBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F,3.0F).sounds(BlockSoundGroup.WOOD).burnable(),true);
     public static final Block MAPLE_SLAB = register("maple_slab", SlabBlock::new, AbstractBlock.Settings.create().instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable(), true);
     public static final Block MAPLE_STAIRS = register("maple_stairs", settings -> new StairsBlock(ModBlocks.MAPLE_PLANKS.getDefaultState(), settings), AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.WOOD), true);
-    public static final Block MAPLE_LEAVES = register("maple_leaves", LeavesBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).ticksRandomly().nonOpaque().sounds(BlockSoundGroup.GRASS).burnable().suffocates(Blocks::never).blockVision(Blocks::never).pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), true);
-    public static final Block MAPLE_SAPLING = register("maple_sapling", settings -> new SaplingBlock(SaplingGenerator.OAK, settings), AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), true);
+    public static final Block MAPLE_LEAVES = register("maple_leaves", LeavesBlock::new, AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).strength(0.2F).ticksRandomly().nonOpaque().sounds(BlockSoundGroup.GRASS).burnable().suffocates(Blocks::never).blockVision(Blocks::never).pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never), true);
+    public static final Block MAPLE_SAPLING = register("maple_sapling", settings -> new SaplingBlock(ModSaplingGenerator.MAPLE_WOOD, settings), AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), true);
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean shouldRegisterItem) {
         RegistryKey<Block> blockKey = keyOfBlock(name);

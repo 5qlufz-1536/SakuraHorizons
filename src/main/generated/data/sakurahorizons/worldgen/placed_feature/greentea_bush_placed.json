@@ -1,15 +1,9 @@
 {
-  "feature": "sakurahorizons:rice_crop",
+  "feature": "sakurahorizons:greentea_bush",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 21
-    },
-    {
-      "type": "minecraft:noise_threshold_count",
-      "above_noise": 5,
-      "below_noise": 1,
-      "noise_level": 0.2
+      "chance": 32
     },
     {
       "type": "minecraft:in_square"
